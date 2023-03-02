@@ -1,0 +1,19 @@
+#product .head p::after {
+    content: "";
+    display: block;
+    margin: 20px auto 0;
+    width: 80px;
+    height: 5px;
+    background: #17a5e9;
+}
+
+.allproduct {
+    margin: auto;
+    width: 90%;
+}
+
+@media screen and (max-width:557px) {
+    .allproduct {
+        margin-left: 13vw;
+    }
+}

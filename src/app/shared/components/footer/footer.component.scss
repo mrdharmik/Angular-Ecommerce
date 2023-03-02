@@ -1,0 +1,43 @@
+#footer {
+    background-color: black;
+    height: 50vh;
+    width: 100vw;
+}
+
+.inetfooterhead {
+    background: linear-gradient(to right, #177985 -20%, #df7b11 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#footer h3 {
+    padding: 23px 0;
+    color: white;
+}
+
+#footer h3::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 5px;
+    background: #17a5e9;
+    margin-top: 10px;
+}
+
+.footeroption li {
+    list-style-type: none;
+}
+
+.footeroption li a,
+i {
+    color: gray;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footeroption li a:hover {
+    color: red;
+}
